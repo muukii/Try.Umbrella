@@ -1,0 +1,6 @@
+framework module RxFuture {
+  umbrella header "RxFuture-umbrella.h"
+
+  export *
+  module * { export * }
+}
