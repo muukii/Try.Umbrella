@@ -4,11 +4,11 @@ use_modular_headers!
 
 use_frameworks!
 
-target 'Umbrella' do
+# target 'Umbrella' do
 
-  # Pods for Umbrella
+#   # Pods for Umbrella
 
-end
+# end
 
 target 'AppCore' do
 

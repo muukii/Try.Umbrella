@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <RxSwift/RxSwift-Swift.h>
+
 
 //! Project version number for AppCore.
 FOUNDATION_EXPORT double AppCoreVersionNumber;

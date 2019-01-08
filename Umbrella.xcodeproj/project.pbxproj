@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		485A2F6BB2480B3D99DB8DD3 /* Pods_Umbrella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8805BFC5281611A4BAF9C1 /* Pods_Umbrella.framework */; };
 		4BEA744E21E466E600684F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA744D21E466E600684F03 /* AppDelegate.swift */; };
 		4BEA745021E466E600684F03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA744F21E466E600684F03 /* ViewController.swift */; };
 		4BEA745321E466E600684F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA745121E466E600684F03 /* Main.storyboard */; };
@@ -21,7 +20,7 @@
 		4BEA747921E49A6100684F03 /* RxCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEA747621E499FF00684F03 /* RxCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BEA747B21E49E1C00684F03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEA747A21E49E1C00684F03 /* UIKit.framework */; };
 		4BEA747D21E4A38900684F03 /* RxFuture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEA747C21E4A33800684F03 /* RxFuture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74B9112A87412A2131AEE758 /* Pods_AppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103B86505342FFC64E7ED947 /* Pods_AppCore.framework */; };
+		98CEBDAE12A11FE1D62F8BCB /* Pods_AppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6417AA05A3A293F8EC4B719 /* Pods_AppCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		03F978DD3188084A1CF164A7 /* Pods-Umbrella.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Umbrella.release.xcconfig"; path = "Target Support Files/Pods-Umbrella/Pods-Umbrella.release.xcconfig"; sourceTree = "<group>"; };
-		0517F7E564D336976EDEC50F /* Pods-Umbrella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Umbrella.debug.xcconfig"; path = "Target Support Files/Pods-Umbrella/Pods-Umbrella.debug.xcconfig"; sourceTree = "<group>"; };
-		103B86505342FFC64E7ED947 /* Pods_AppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		010C5300609E5600F6AD3BB1 /* Pods_Umbrella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Umbrella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BEA744A21E466E600684F03 /* Umbrella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umbrella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BEA744D21E466E600684F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BEA744F21E466E600684F03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,9 +65,9 @@
 		4BEA747621E499FF00684F03 /* RxCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxCocoa.h; sourceTree = "<group>"; };
 		4BEA747A21E49E1C00684F03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4BEA747C21E4A33800684F03 /* RxFuture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxFuture.h; sourceTree = "<group>"; };
-		62580F0C23FA4C8A1BE7BE38 /* Pods-AppCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCore.release.xcconfig"; path = "Target Support Files/Pods-AppCore/Pods-AppCore.release.xcconfig"; sourceTree = "<group>"; };
-		8BBB129D0E9C5B10AD3576BB /* Pods-AppCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCore.debug.xcconfig"; path = "Target Support Files/Pods-AppCore/Pods-AppCore.debug.xcconfig"; sourceTree = "<group>"; };
-		FD8805BFC5281611A4BAF9C1 /* Pods_Umbrella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Umbrella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78848E4D309FA292A0FBE893 /* Pods-AppCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCore.release.xcconfig"; path = "Target Support Files/Pods-AppCore/Pods-AppCore.release.xcconfig"; sourceTree = "<group>"; };
+		D1832994AC078F0BA8335035 /* Pods-AppCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCore.debug.xcconfig"; path = "Target Support Files/Pods-AppCore/Pods-AppCore.debug.xcconfig"; sourceTree = "<group>"; };
+		D6417AA05A3A293F8EC4B719 /* Pods_AppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +77,6 @@
 			files = (
 				4BEA747B21E49E1C00684F03 /* UIKit.framework in Frameworks */,
 				4BEA746B21E4671B00684F03 /* AppCore.framework in Frameworks */,
-				485A2F6BB2480B3D99DB8DD3 /* Pods_Umbrella.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74B9112A87412A2131AEE758 /* Pods_AppCore.framework in Frameworks */,
+				98CEBDAE12A11FE1D62F8BCB /* Pods_AppCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,10 +141,8 @@
 		654EB6BF67C74021D7ED1B52 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8BBB129D0E9C5B10AD3576BB /* Pods-AppCore.debug.xcconfig */,
-				62580F0C23FA4C8A1BE7BE38 /* Pods-AppCore.release.xcconfig */,
-				0517F7E564D336976EDEC50F /* Pods-Umbrella.debug.xcconfig */,
-				03F978DD3188084A1CF164A7 /* Pods-Umbrella.release.xcconfig */,
+				D1832994AC078F0BA8335035 /* Pods-AppCore.debug.xcconfig */,
+				78848E4D309FA292A0FBE893 /* Pods-AppCore.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -157,8 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				4BEA747A21E49E1C00684F03 /* UIKit.framework */,
-				103B86505342FFC64E7ED947 /* Pods_AppCore.framework */,
-				FD8805BFC5281611A4BAF9C1 /* Pods_Umbrella.framework */,
+				D6417AA05A3A293F8EC4B719 /* Pods_AppCore.framework */,
+				010C5300609E5600F6AD3BB1 /* Pods_Umbrella.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,12 +178,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BEA745C21E466E700684F03 /* Build configuration list for PBXNativeTarget "Umbrella" */;
 			buildPhases = (
-				CD01651F65924BE2A934E004 /* [CP] Check Pods Manifest.lock */,
 				4BEA744621E466E600684F03 /* Sources */,
 				4BEA744721E466E600684F03 /* Frameworks */,
 				4BEA744821E466E600684F03 /* Resources */,
 				4BEA747021E4671B00684F03 /* Embed Frameworks */,
-				644540309C3B2DD24F30B970 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,7 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BEA746D21E4671B00684F03 /* Build configuration list for PBXNativeTarget "AppCore" */;
 			buildPhases = (
-				B31BC2911C3FDEF611E15AC2 /* [CP] Check Pods Manifest.lock */,
+				374810397DF5F959216F193A /* [CP] Check Pods Manifest.lock */,
 				4BEA745F21E4671B00684F03 /* Headers */,
 				4BEA746021E4671B00684F03 /* Sources */,
 				4BEA746121E4671B00684F03 /* Frameworks */,
@@ -279,35 +271,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		644540309C3B2DD24F30B970 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Umbrella/Pods-Umbrella-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxFuture/RxFuture.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxFuture.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Umbrella/Pods-Umbrella-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B31BC2911C3FDEF611E15AC2 /* [CP] Check Pods Manifest.lock */ = {
+		374810397DF5F959216F193A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,28 +287,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AppCore-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CD01651F65924BE2A934E004 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Umbrella-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -519,17 +461,20 @@
 		};
 		4BEA745D21E466E700684F03 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0517F7E564D336976EDEC50F /* Pods-Umbrella.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/**";
+				HEADER_SEARCH_PATHS = (
+					"${BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RxSwift/RxSwift.framework/Headers",
+					"${BUILD_DIR}/$(CONFIGURATION)-iphonesimlator/RxSwift/RxSwift.framework/Headers",
+				);
 				INFOPLIST_FILE = Umbrella/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.eure.Umbrella;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -539,17 +484,20 @@
 		};
 		4BEA745E21E466E700684F03 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03F978DD3188084A1CF164A7 /* Pods-Umbrella.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/**";
+				HEADER_SEARCH_PATHS = (
+					"${BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RxSwift/RxSwift.framework/Headers",
+					"${BUILD_DIR}/$(CONFIGURATION)-iphonesimlator/RxSwift/RxSwift.framework/Headers",
+				);
 				INFOPLIST_FILE = Umbrella/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.eure.Umbrella;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -559,7 +507,7 @@
 		};
 		4BEA746E21E4671B00684F03 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BBB129D0E9C5B10AD3576BB /* Pods-AppCore.debug.xcconfig */;
+			baseConfigurationReference = D1832994AC078F0BA8335035 /* Pods-AppCore.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -569,6 +517,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/**";
 				INFOPLIST_FILE = AppCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -605,7 +554,7 @@
 		};
 		4BEA746F21E4671B00684F03 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62580F0C23FA4C8A1BE7BE38 /* Pods-AppCore.release.xcconfig */;
+			baseConfigurationReference = 78848E4D309FA292A0FBE893 /* Pods-AppCore.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -615,6 +564,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/**";
 				INFOPLIST_FILE = AppCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
