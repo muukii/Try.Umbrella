@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09F3F629B9B452FE9EB71926 /* Pods_AppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD7BA178FBD3B9C63B39A08 /* Pods_AppCore.framework */; };
 		4BEA744E21E466E600684F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA744D21E466E600684F03 /* AppDelegate.swift */; };
 		4BEA745021E466E600684F03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA744F21E466E600684F03 /* ViewController.swift */; };
 		4BEA745321E466E600684F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA745121E466E600684F03 /* Main.storyboard */; };
@@ -16,11 +17,7 @@
 		4BEA746B21E4671B00684F03 /* AppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEA746421E4671B00684F03 /* AppCore.framework */; };
 		4BEA746C21E4671B00684F03 /* AppCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEA746421E4671B00684F03 /* AppCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4BEA747221E469D000684F03 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA747121E469D000684F03 /* Dummy.swift */; };
-		4BEA747821E49A5C00684F03 /* RxSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEA747421E497BE00684F03 /* RxSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BEA747921E49A6100684F03 /* RxCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEA747621E499FF00684F03 /* RxCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BEA747B21E49E1C00684F03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEA747A21E49E1C00684F03 /* UIKit.framework */; };
-		4BEA747D21E4A38900684F03 /* RxFuture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEA747C21E4A33800684F03 /* RxFuture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98CEBDAE12A11FE1D62F8BCB /* Pods_AppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6417AA05A3A293F8EC4B719 /* Pods_AppCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +45,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		010C5300609E5600F6AD3BB1 /* Pods_Umbrella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Umbrella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD7BA178FBD3B9C63B39A08 /* Pods_AppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DF08C1D66F88237F9935D8 /* Pods-AppCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCore.release.xcconfig"; path = "Target Support Files/Pods-AppCore/Pods-AppCore.release.xcconfig"; sourceTree = "<group>"; };
+		3A926107B30E4B2F3D4252E1 /* Pods-AppCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCore.debug.xcconfig"; path = "Target Support Files/Pods-AppCore/Pods-AppCore.debug.xcconfig"; sourceTree = "<group>"; };
 		4BEA744A21E466E600684F03 /* Umbrella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umbrella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BEA744D21E466E600684F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BEA744F21E466E600684F03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,14 +59,7 @@
 		4BEA746621E4671B00684F03 /* AppCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCore.h; sourceTree = "<group>"; };
 		4BEA746721E4671B00684F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BEA747121E469D000684F03 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
-		4BEA747321E496BD00684F03 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		4BEA747421E497BE00684F03 /* RxSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSwift.h; sourceTree = "<group>"; };
-		4BEA747621E499FF00684F03 /* RxCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxCocoa.h; sourceTree = "<group>"; };
 		4BEA747A21E49E1C00684F03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		4BEA747C21E4A33800684F03 /* RxFuture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxFuture.h; sourceTree = "<group>"; };
-		78848E4D309FA292A0FBE893 /* Pods-AppCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCore.release.xcconfig"; path = "Target Support Files/Pods-AppCore/Pods-AppCore.release.xcconfig"; sourceTree = "<group>"; };
-		D1832994AC078F0BA8335035 /* Pods-AppCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCore.debug.xcconfig"; path = "Target Support Files/Pods-AppCore/Pods-AppCore.debug.xcconfig"; sourceTree = "<group>"; };
-		D6417AA05A3A293F8EC4B719 /* Pods_AppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98CEBDAE12A11FE1D62F8BCB /* Pods_AppCore.framework in Frameworks */,
+				09F3F629B9B452FE9EB71926 /* Pods_AppCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,10 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				4BEA746621E4671B00684F03 /* AppCore.h */,
-				4BEA747421E497BE00684F03 /* RxSwift.h */,
-				4BEA747621E499FF00684F03 /* RxCocoa.h */,
-				4BEA747C21E4A33800684F03 /* RxFuture.h */,
-				4BEA747321E496BD00684F03 /* module.modulemap */,
 				4BEA746721E4671B00684F03 /* Info.plist */,
 				4BEA747121E469D000684F03 /* Dummy.swift */,
 			);
@@ -141,8 +129,8 @@
 		654EB6BF67C74021D7ED1B52 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D1832994AC078F0BA8335035 /* Pods-AppCore.debug.xcconfig */,
-				78848E4D309FA292A0FBE893 /* Pods-AppCore.release.xcconfig */,
+				3A926107B30E4B2F3D4252E1 /* Pods-AppCore.debug.xcconfig */,
+				35DF08C1D66F88237F9935D8 /* Pods-AppCore.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -151,8 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				4BEA747A21E49E1C00684F03 /* UIKit.framework */,
-				D6417AA05A3A293F8EC4B719 /* Pods_AppCore.framework */,
-				010C5300609E5600F6AD3BB1 /* Pods_Umbrella.framework */,
+				2CD7BA178FBD3B9C63B39A08 /* Pods_AppCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,9 +151,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BEA747821E49A5C00684F03 /* RxSwift.h in Headers */,
-				4BEA747D21E4A38900684F03 /* RxFuture.h in Headers */,
-				4BEA747921E49A6100684F03 /* RxCocoa.h in Headers */,
 				4BEA746821E4671B00684F03 /* AppCore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,7 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BEA746D21E4671B00684F03 /* Build configuration list for PBXNativeTarget "AppCore" */;
 			buildPhases = (
-				374810397DF5F959216F193A /* [CP] Check Pods Manifest.lock */,
+				8AE8F5CEF3BF479CBB984971 /* [CP] Check Pods Manifest.lock */,
 				4BEA745F21E4671B00684F03 /* Headers */,
 				4BEA746021E4671B00684F03 /* Sources */,
 				4BEA746121E4671B00684F03 /* Frameworks */,
@@ -272,7 +256,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		374810397DF5F959216F193A /* [CP] Check Pods Manifest.lock */ = {
+		4BC3881621E83D66000D9C17 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "env > /Users/muukii/Desktop/env.log\n";
+		};
+		8AE8F5CEF3BF479CBB984971 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,23 +294,6 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
-		};
-		4BC3881621E83D66000D9C17 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "env > /Users/muukii/Desktop/env.log\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -484,19 +468,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KU2QEJ9K3Z;
-				FRAMEWORK_SEARCH_PATHS = "$(__PATH)/**";
-				HEADER_SEARCH_PATHS = "$(__PATH)/**";
 				INFOPLIST_FILE = Umbrella/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(__PATH)/**";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.eure.Umbrella;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(OBJROOT)/**";
 				__PATH = "";
 			};
 			name = Debug;
@@ -508,26 +488,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KU2QEJ9K3Z;
-				FRAMEWORK_SEARCH_PATHS = "$(__PATH)/**";
-				HEADER_SEARCH_PATHS = "$(__PATH)/**";
 				INFOPLIST_FILE = Umbrella/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(__PATH)/**";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.eure.Umbrella;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(OBJROOT)/**";
 				__PATH = "";
 			};
 			name = Release;
 		};
 		4BEA746E21E4671B00684F03 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1832994AC078F0BA8335035 /* Pods-AppCore.debug.xcconfig */;
+			baseConfigurationReference = 3A926107B30E4B2F3D4252E1 /* Pods-AppCore.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -544,7 +520,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = AppCore/module.modulemap;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -573,7 +548,7 @@
 		};
 		4BEA746F21E4671B00684F03 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78848E4D309FA292A0FBE893 /* Pods-AppCore.release.xcconfig */;
+			baseConfigurationReference = 35DF08C1D66F88237F9935D8 /* Pods-AppCore.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -590,7 +565,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = AppCore/module.modulemap;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
