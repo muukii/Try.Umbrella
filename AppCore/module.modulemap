@@ -6,23 +6,23 @@ framework module AppCore {
   export *
   module * { export * }
 
-  explicit module RxSwift {
-    
-    header "RxSwift.h"
-    export *
-  }
-  
-  explicit module RxCocoa {
-    
-    header "RxCocoa.h"
-    export *
-  }
-  
-  explicit module RxFuture {
-    
-    header "RxFuture.h"
-    export *
-  }
+//  explicit module RxSwift {
+//    
+//    header "RxSwift.h"
+//    export *
+//  }
+//  
+//  explicit module RxCocoa {
+//    
+//    header "RxCocoa.h"
+//    export *
+//  }
+//  
+//  explicit module RxFuture {
+//    
+//    header "RxFuture.h"
+//    export *
+//  }
   
 }
 

@@ -6,9 +6,10 @@
 //  Copyright © 2019 muukii. All rights reserved.
 //
 
-import AppCore.RxCocoa
-import AppCore.RxSwift
-import AppCore.RxFuture
+import AppCore
+//import AppCore.RxCocoa
+//import AppCore.RxSwift
+//import AppCore.RxFuture
 
 class ViewController: UIViewController {
 
